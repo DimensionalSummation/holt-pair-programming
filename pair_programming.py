@@ -6,6 +6,7 @@ def scale(arr):
     Returns: ndarray of floats"""
     
     # ensure the input is an array
+    #(renee) change arr1 to arr
     assert (type(arr)==np.ndarray), 'Please input int, float, or ndarray'
     
     # the scaled term corresponding to the current term in the input array is calculated by taking the difference between the
@@ -36,3 +37,5 @@ def testScale():
     assert np.allclose(scaleArr, [1, 0.5, 0]), "Test Case 2 Failed."
     
     print("All test cases passed.")
+    
+#(renee) rename file to proper syntax for purposes of testing in console
